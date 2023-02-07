@@ -10,12 +10,8 @@ function MapButtonLoader() {
     { no: 9, district: "Khammam" }];
 
     const handleSelect = (idx) => {
-        debugger
-       
             setLoader(true);
             setIndexLoader(idx);
-      
-       
     }
 
     return (
@@ -47,7 +43,6 @@ function MapButtonLoader() {
                                     {item.district}
                                 </td>
                                 <td>
-
                                     <button onClick={() => handleSelect(idx)}>
                                         {loader && idx == indexLoader && (
                                             <Spinner
