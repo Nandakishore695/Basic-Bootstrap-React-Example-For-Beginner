@@ -21,3 +21,11 @@ used to define the background effects for elements.
 - background-repeat:
 - background-attachment:
 - background-position:
+
+  
+**5.What are the different types of Selectors in CSS?**
+
+- Universal Selector:
+- Element Type Selector:
+- ID Selector:
+- Class Selector:
